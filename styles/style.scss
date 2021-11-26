@@ -1,0 +1,21 @@
+@import "reset.scss";
+@import "fontscolors.scss";
+
+#fullpage {
+  #s1 {
+    background: $s1-bg;
+  }
+  #s2 {
+    background: $s2-bg;
+  }
+  #s3 {
+    background: $s3-bg;
+  }
+  #s4 {
+    background: $s4-bg;
+  }
+}
+
+span {
+  background: $light-black !important;
+}
