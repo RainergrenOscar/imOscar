@@ -9,6 +9,6 @@ This is a project i made to become better att css/sass and to try different libr
 
 ### Figma
 
-* [Figma](#)
+* [Figma](https://www.figma.com/file/nCLOGI6C3MRWOY9MXpJxuH/Untitled?node-id=0%3A1)
 
 
