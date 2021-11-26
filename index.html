@@ -9,18 +9,67 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>imOscar</title>
   </head>
   <body>
+    <!-- Name logo -->
+    <nav class="logo">
+      <h1>oscar.</h1>
+    </nav>
     <div id="fullpage">
-      <div class="section" id="s1"></div>
-      <div class="section" id="s2"></div>
-      <div class="section" id="s3"></div>
-      <div class="section" id="s4"></div>
+      <div class="container">
+        <div class="wrapper">
+          <!-- SECTION 1 -->
+          <div class="section" id="s1">
+            <div class="home-right">
+              <img src="img/s1-img.svg" class="img-1" alt="" />
+            </div>
+            <div class="home-left">
+              <p>hi,</p>
+              <h1>i'm Oscar</h1>
+              <p>i hope you have a wonderful day</p>
+            </div>
+          </div>
+          <!-- SECTION 2 -->
+          <div class="section" id="s2">
+            <div class="flex-center">
+              <h1>i like to code.</h1>
+            </div>
+            <div class="center">
+              <img src="img/s2-img.svg" class="img-2" alt="" />
+            </div>
+          </div>
+          <!-- SECTION 3 -->
+          <div class="section" id="s3">
+            <div class="home-right">
+              <img src="img/s3-img.svg" class="img-3" alt="" />
+            </div>
+            <div class="text-right">
+              <h1>i have a cat.</h1>
+              <p>this is a cat.</p>
+            </div>
+          </div>
+          <!-- SECTION 4 -->
+          <div class="section" id="s4">
+            <div class="home-right">
+              <img src="img/s4-img.svg" class="img-4" alt="" />
+            </div>
+            <div class="home-left">
+              <h1 class="middle">bye.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Fullpage CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
     <!-- Javascript file -->
     <script src="app.js"></script>
+    <!-- Animate on scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

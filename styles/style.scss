@@ -1,9 +1,127 @@
 @import "reset.scss";
 @import "fontscolors.scss";
 
+.home-right {
+  .img-1 {
+    width: 60%;
+    height: auto;
+    float: right;
+    padding-right: 5%;
+    max-height: 900px;
+  }
+  .img-4 {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    min-width: 450px;
+    max-height: 900px;
+    right: 0%;
+    bottom: 0px;
+  }
+  .img-3 {
+    width: 60%;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    max-height: 870px;
+  }
+}
+
+.text-right {
+  position: absolute;
+  top: 44%;
+  left: 60%;
+  width: 50%;
+  color: $light-black;
+  h1 {
+    font-size: 4rem;
+    font-family: $main-font;
+    color: $black;
+    margin: auto;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-family: $main-font;
+    color: $light-black;
+    margin: -2% 0.2%;
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    max-width: 50%;
+    font-size: 4rem;
+    font-family: $main-font;
+    color: $black;
+    margin-bottom: 50vh;
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img-2 {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    min-width: 450px;
+    max-height: 900px;
+    bottom: 0px;
+  }
+}
+
+.logo {
+  position: fixed;
+  top: 2rem;
+  left: 3.8rem;
+  z-index: 4;
+  display: block;
+  width: auto;
+  height: 6.1875rem;
+  text-decoration: none;
+  h1 {
+    font-family: $logo;
+    font-size: 1.8rem;
+    letter-spacing: -2px;
+  }
+}
+
+.home-left {
+  position: absolute;
+  top: 44%;
+  left: 18%;
+  transform: translate(-10%, -40%);
+  width: 50%;
+  color: $light-black;
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  h1 {
+    font-size: 4rem;
+    font-family: $main-font;
+    color: $black;
+    margin: auto;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: $main-font;
+    color: $light-black;
+    margin: -2% 0.2%;
+  }
+}
+
 #fullpage {
   #s1 {
     background: $s1-bg;
+    width: 100%;
   }
   #s2 {
     background: $s2-bg;
@@ -15,7 +133,6 @@
     background: $s4-bg;
   }
 }
-
 span {
   background: $light-black !important;
 }
